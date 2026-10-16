@@ -1,0 +1,19 @@
+{
+  "name": "DiziYou TV for Nuvio",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "diziyou-tv",
+      "name": "DiziYou TV",
+      "description": "Turkish subtitled and dubbed series from DiziYou. Resolves and checks HLS playlists directly on your device.",
+      "version": "1.0.0",
+      "filename": "diziyou.js",
+      "supportedTypes": ["tv", "series"],
+      "contentLanguage": ["tr"],
+      "formats": ["m3u8"],
+      "enabled": true,
+      "hasSettings": true,
+      "supportsExternalPlayer": true
+    }
+  ]
+}
